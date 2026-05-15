@@ -6,6 +6,10 @@
     border-radius: 8px;
     margin: 60px;
 }
+.profile.dark {
+    background: #25313d;
+    color: #ffffff;
+}
 .profile h1 {
     font-size: 48px;
     font-weight: bold;
@@ -16,11 +20,15 @@
     color: transparent;
     animation: rainbow 5s linear infinite;
 }
-.line {
+.line{
+    background: #000000;
+    height: 80px;
+}
+.line.rainbow {
     background: linear-gradient(to right, #e60000, #f39800, #fff100, #009944, #0068b7, #1d2088, #920783);
     background-size: 200% auto; 
     height: 80px;
-    animation: 5s shine  linear infinite;
+    animation: 1s shine  linear infinite;
 }
 @keyframes shine {
     to {
