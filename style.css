@@ -10,7 +10,7 @@
     font-size: 48px;
     font-weight: bold;
     background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-    background-size: 200% auto; /* アニメーション用に幅を広く */
+    background-size: 200% auto; 
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -18,7 +18,7 @@
 }
 .line {
     background: linear-gradient(to right, #e60000, #f39800, #fff100, #009944, #0068b7, #1d2088, #920783);
-    background-size: 200% auto; /* アニメーション用に幅を広く */
+    background-size: 200% auto; 
     height: 80px;
     animation: 5s shine  linear infinite;
 }
